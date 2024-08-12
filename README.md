@@ -1,4 +1,5 @@
-# AC1008
+# AC1008max   SW6306_BQ40Z50版本
+
 
 固件版本：v4.0
 
@@ -10,4 +11,4 @@ Flash: 4Mb
 
 SSID:2024 password:12345678
 
-LastUpdate 24/8/10
+LastUpdate 24/8/12
