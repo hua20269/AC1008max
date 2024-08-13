@@ -1,7 +1,6 @@
 #ifndef _AgentConfig_H
 #define _AgentConfig_H
 
-
 #include <Arduino.h>
 
 /**

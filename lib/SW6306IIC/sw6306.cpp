@@ -450,5 +450,8 @@ void SW6306init() // sw6306初始化
     // if (I2C_Read(SW6306_address, 0x10D) != 0x30)   // 充电配置6
     //     I2C_Write_16(SW6306_address, 0x10D, 0x30); // 涓流充电电流    0：100mA    1：200mA    2：300mA    3：400mA
 
+    if (I2C_Read(SW6306_address, 0x151) != 0x55)
+        I2C_Write_16(SW6306_address, 0x151, 0X55); // 按键控制： 单击点亮     双击小电流      长按LED
+
     I2C_Write_16(SW6306_address, 0x1FF, 0x0); // 切换回 0-100 写使能
 }
